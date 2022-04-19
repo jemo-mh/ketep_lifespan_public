@@ -1,0 +1,7 @@
+Dataset/*
+*.pth
+*.sh
+.neptune/*
+*.txt
+!requirments.txt
+.neptune/
