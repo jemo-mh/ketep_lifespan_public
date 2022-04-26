@@ -71,7 +71,9 @@ class LSDataset(Dataset):
 class LSDataset_val(Dataset):
     def __init__(self):
         # txt = 'Dataset/Integrated_val.txt'
-        txt='/mnt/e/Workspace/jm/Projects/baby_eval/utils/Lifespan_validation0414.txt'
+        # txt='/mnt/e/Workspace/jm/Projects/baby_eval/utils/Lifespan_validation0414.txt'
+        # txt = 'Dataset/inference.txt'
+        txt ='/mnt/e/Workspace/jm/Projects/temp/ketep_lifespan/Dataset/inference.txt'
         self.f_ = np.loadtxt(txt, 'str', delimiter=',',skiprows=1)
     
     def __len__(self):
